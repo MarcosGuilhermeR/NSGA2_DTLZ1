@@ -2,7 +2,6 @@ function [F, varargout] = dtlz1 (x, varargin)
 
 x = x(:);
 
-
 n = length(x); %n = nvar, x é um individuo
 k = 5;
 
