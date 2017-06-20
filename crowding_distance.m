@@ -1,5 +1,8 @@
 function pop=crowding_distance(pop,F)
-
+    %Função retirada da internet, verifiquei que há um problema com
+    %a função que eu desenvolvi (comentada abaixo). Posteriormente
+    %irei verificar.
+    
     nF=numel(F);
     
     for k=1:nF
